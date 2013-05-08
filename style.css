@@ -1,0 +1,44 @@
+/*
+Theme Name:     Maya Canvas Child Theme
+Theme URI:      https://github.com/kloon/canvas-maya
+Description:    Maya theme build ontop of WooThemes Canvas
+Author:         Gerhard Potgieter
+Author URI:     http://gerhardpotgieter.com
+Template:       canvas
+Version:        0.1.0
+*/
+
+@import url( "../canvas/style.css" );
+
+#top .fr {
+	right: 120px;
+}
+
+.col-full {
+	position: relative;
+}
+
+#cart {
+	position: absolute;
+	top: 0px;
+	right: 17px;
+	width: 112px;
+	height: 95px;
+	background: url('images/cart-ribbon.png') no-repeat;
+	max-width: 960px;
+}
+
+#cart a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	position: relative;
+	color: #CCCACA;
+	font-family: 'Calibri', 'Droid Sans', Verdana, Arial, sans-serif;
+}
+
+#cart a .minicart {
+	display: block;
+	padding-top: 45px;
+}
